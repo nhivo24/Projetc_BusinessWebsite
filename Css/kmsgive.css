@@ -1,0 +1,138 @@
+.header .dt-grid {
+    position: relative;
+     margin-left: 4rem;
+}
+.dt-grid {
+    margin: 0 auto;
+    width: 995px;
+}
+.header .dt-time{
+margin-left: 100px;
+}
+.header .social {
+    float: left;
+    margin-left: 4rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.header{
+    height: 35px;
+    background-color: #2657af;
+    border-bottom: 1px solid #1d4285;
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 40px;
+
+}
+
+.header .link {
+    float: left;
+    margin-left: 4rem;
+
+}
+.header a{
+	color: white;
+}
+
+
+.header .search input {
+    border: none;
+    background-color: transparent;
+    height: 20px;
+   
+}
+.header .search{
+float: right;
+margin-top: 0px;
+margin-right: 30px;
+
+}
+
+.header time {
+    float: left;
+} 
+span{
+	font-size: 12px;
+}
+button{
+	height: 30px;
+	width: 60px;
+	margin-bottom: 20px;
+}
+.menu1 ul li ul{
+	display: none;
+	position: absolute;
+	background-color:#2657af; 
+	text-align: center;
+
+
+}
+.menu1 ul li:hover ul {
+	display: block;
+}
+
+.menu1 ul li ul li{
+	padding: 5px 10px;
+}
+.menu1 li{
+	list-style:none;
+	display: inline;
+}
+
+.menu1 ul li a{
+text-decoration: none;
+font-size: 16px;
+color: black;
+font-size: 12px;
+margin-top: 30px;
+ text-align: center;
+ }
+.col-lg-4 a{
+	color: black;
+	font-size: 14px;
+	text-decoration: none;
+}
+.col-lg-4 a:hover{
+	color: pink;
+}
+.line_border{
+margin-right: 100px;
+margin-left: 100px;
+margin-top: 20px;
+height: 20px;
+border-bottom: 3px solid orange;
+text-align: center;
+}
+}
+.highlight-1 .rank-2 .story {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #dee2e6;
+}
+.col-lg-4 button{
+	border: none;
+	color: black;
+	background-color: white;
+	font-size: 12px;
+}
+.col-lg-4 h3{
+	font-size: 20px;
+	color:#ef7998 ;
+	font-family: "Kaushan Script", cursive;
+}
+.col-lg-12 a{
+	font-size: 13px;
+	padding: 2px;
+}
+.overflowTest {
+overflow: scroll;
+ height: 350px;
+ border: 1px solid #ccc;
+}
+.col-lg-8 .col-lg-3 {
+	width: 110px;
+}

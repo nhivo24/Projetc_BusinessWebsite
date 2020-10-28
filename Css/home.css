@@ -1,0 +1,389 @@
+.bgimg-1 {
+    background-image: url(../Image/ksmgive.png);
+    margin-top: 30px;
+
+}
+
+.navbar{
+    background: white;
+    width: 100%;
+   position: fixed;
+   
+
+}
+@media only screen and (max-device-width: 1600px) {
+    .bgimg-1 {
+        background-attachment: scroll;
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+}
+
+#demo-2 input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input {
+    outline: none;
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+
+ 
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+} 
+
+
+ 
+input[type=search] {
+    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 32px;
+    width: 55px;
+    height: 20px;
+    margin-left: 150px;
+    margin-top: 5px;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+} 
+
+input[type=search]:focus {
+    width: 140px;
+    height: 20px;
+    
+    background-color: #fff;
+    border-color: #66CC75;
+}
+
+input:-moz-placeholder {
+    color: #999;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+#power {
+    font-size: 50px;
+    color: orange;
+}
+
+#love {
+    font-size: 50px;
+    color: red;
+}
+
+#job {
+    font-size: 50px;
+    color: #f4511e;
+}
+
+#green {
+    font-size: 50px;
+    color: #00cd31;
+}
+
+#ce {
+    font-size: 50px;
+    color: #009ccd;
+}
+
+#hard {
+    font-size: 50px;
+    color: #f7d355;
+}
+
+#requi {
+    border: 1px solid white;
+}
+
+#requi:hover {
+    box-shadow: 3px 5px 5px 10px #f6f6f6;
+}
+
+.grid-container {
+    text-align: center;
+    background-color: #27aee1;
+    padding: 10px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.grid-container1 {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #27aee1;
+    padding: 10px;
+    font-weight: bold;
+       height: 500px;
+
+}
+
+.grid-container p {
+    font-family: Verdana;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.grid-container h5 {
+    font-family: Verdana;
+    color: white;
+    font-weight: bold;
+}
+
+.grid-container1 h3 {
+    font-family: Verdana;
+    color: white;
+}
+
+.grid-container1 h5 {
+    font-family: Verdana;
+    color: white;
+}
+
+.carousel-control {
+    left: -12px;
+    height: 40px;
+    width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+
+.carousel-control.right {
+    right: -12px;
+}
+
+
+/* The indicators */
+
+.carousel-indicators {
+    right: 50%;
+    bottom: 200px;
+    margin-right: -19px;
+
+}
+
+#nd p {
+    color: #575757;
+}
+
+
+/* The colour of the indicators */
+
+.carousel-indicators li {
+    background: #cecece;
+}
+
+.carousel-indicators .active {
+    background: #428bca;
+}
+
+#nd {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.container {
+    font-size: 17px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+#map {
+    width: 1000px;
+    height: 500px;
+    margin-top: -200px;
+}
+
+input[type="text"],
+input[type="username"],
+input[type="password"] {
+    width: 75%;
+    padding: 16px 50px 16px 50px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    margin: 14px 0px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #fff;
+    background: url(bg.jpg);
+    letter-spacing: 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+input[type="username"] {
+    background: rgba(0, 0, 0, 0.55) url(user.png) no-repeat 10px 10px;
+}
+
+input[type="password"] {
+    background: rgba(0, 0, 0, 0.55) url(lock.png) no-repeat 10px 10px;
+}
+
+input[type="submit"] {
+    padding: 14px 30px;
+    font-size: 1em;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #2dde98;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin: 24px auto;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+input[type="submit"]:hover {
+    background: #ff4f81;
+    color: #fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.w3layouts-main2 input[type="submit"] {
+    margin: 27px auto 31px;
+}
+
+table th,
+td {
+    border: 1px solid black;
+}
+
+.grid-containerfoot {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    /* background-image: url(office.jpg); */
+    width: 100%;
+    height: 640px;
+    padding: 10px;
+    color: white;
+}
+
+.grid {
+    background-image: url(../Image/office.jpg);
+    padding: 10px;
+    background-size: 100%;
+    color: white;
+    margin: 10px;
+}
+
+.grid-containerfoot>div {
+    background-color: none;
+    /* color: white; */
+}
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 1px solid none;
+    background-color: #808080;
+    opacity: 0.9;
+    width: 210px;
+    height: 270px;
+    margin-left: 200px;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.item2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 1px solid none;
+    background-color: #808080;
+    opacity: 0.9;
+    width: 210px;
+    height: 270px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: -150px;
+}
+
+.item3 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 1px solid none;
+    background-color: #808080;
+    opacity: 0.9;
+    width: 210px;
+    height: 270px;
+    margin-left: -300px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.item4 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 1px solid none;
+    background-color: #808080;
+    opacity: 0.9;
+    width: 210px;
+    height: 270px;
+    margin-left: 250px;
+    padding: 10px;
+    margin-top: -30px;
+}
+
+.item5 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 1px solid none;
+    background-color: #808080;
+    opacity: 0.9;
+    width: 210px;
+    height: 270px;
+    padding: 10px;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+.myImage{
+     background-image: url("../Image/kmsgives4.png");
+     max-width: 100%;
+}
+.detail{
+   float:right;
+   border:1px solid;
+   border-radius:15px;
+   margin-top:-15px;"
+   height: 50px;
+   width: 80px;
+   text-align: center;
+}
